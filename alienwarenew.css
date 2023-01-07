@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    background-color: #222;
+    padding: 27px;
+    padding-inline: 74px;
+
+}
+.logo{
+    padding: 0%;
+}
+nav{
+    position: relative;
+    bottom: -10px;
+}
+header a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 57px;
+    letter-spacing: 2px;
+    color: rgb(240, 238, 237);
+}
+header .container{
+    display: flex;
+}
+.grey-container{
+    background-image: url(https://i.dell.com/sites/csimages/Banner_Imagery/all/aw-m15-amd_1600x700_left-v1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 83vh;
+}
+.grey-container .right-section{
+    position: absolute;
+    right: 140px;
+    bottom: 230px;
+}
+.grey-container .right-section h1{
+    color: #3a3b3a;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: inherit;
+    letter-spacing: 2px;
+}
+.grey-container .right-section p{
+    color: rgb(82, 82, 83);
+    font-size: 19px;
+}
+.grey-container .right-section .grey-button{
+    color: #444;
+    border: 3px solid #444;
+    background: transparent;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+}
+.grey-container .right-section .grey-button:hover{
+    color: white;
+    background-color: #444;
+}
+.blue-container{
+    background-image: url(https://i.dell.com/sites/csimages/Banner_Imagery/all/cs2301g0002-564221-gl-cs-co-fy23q1-sit-bf2_city-1600x700-left.png);
+    width: 100%;
+    height: 105vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blue-container .right-section{
+    position: absolute;
+    right: 1%;
+    bottom: -60%;
+    font-size: 20px;
+}
+.blue-container .right-section h1,h2{
+    color: rgb(247, 246, 246);
+}
+.desktop-laptop{
+    display: flex;
+    
+}
+.laptop .left-section{
+    width: 670px;
+    height: 60vh;
+}
+.desktop .right-section{
+    width: 672px;
+    height: 60vh;
+
+}
+.lap{
+    position: absolute;
+    top: 1334px;
+    left: 0;
+    width: 50.01%;
+    height: 394px;
+    background: rgba(0, 0, 0, 0.6);
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    cursor: pointer;
+}
+.lap:hover{
+    opacity: 1;
+}
+.desk{
+    position: absolute;
+    bottom: -1070px;
+    right: 0px;
+    width: 50%;
+    height: 394px;
+    background: rgba(0, 0, 0, 0.6);
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    cursor: pointer;
+}
+.desk:hover{
+    opacity: 1;
+}
+.bleed-city{
+    background-image: url(https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/alienware/aw-site-banner-template-1600x700-imageleft-notext.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 78vh;
+}
+.bleed-city .right-section{
+    display: inline-block;
+    position: absolute;
+    right: 115px;
+    bottom: -1400px;
+}
+.bleed-city .right-section h1{
+    color: rgb(61, 60, 60);
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: inherit;
+}
+.bleed-city .right-section p{
+    color: #444;
+    line-height: 24px;
+}
+.bleed-button{
+    color: #444;
+    border: 3px solid #444;
+    background: transparent;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bleed-button:hover {
+    color: white;
+    background-color: #444;
+}
+.laptop-x{
+    background-image: url(https://i.dell.com/sites/csimages/Banner_Imagery/all/cs2204g0004_552561_gl_cs_co_fy22q4_sit_aw_x14_1600x700_right-new.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 83vh;
+    padding: 217px;
+    padding-left: 120px;
+}
+.laptop-x .left-section h1{
+    color: #444;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: inherit;
+}
+.laptop-x .left-section p{
+    font-size: 18px;
+    color: #3a3b3a;
+    line-height: 24px;
+}
+.x-button{
+    color: #444;
+    border: 3px solid #444;
+    background: transparent;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+}
+.x-button:hover{
+    color: white;
+    background-color: #444;
+}
+.laptop-m15{
+    background-image: url(https://i.dell.com/sites/csimages/Banner_Imagery/all/cs2204g0007_552575_gl_cs_co_fy23_q1_sit_aw_m15_r7_1600x700_left-1280x1280.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 80vh;
+    padding: 229px;
+    padding-left: 647px;
+}
+.laptop-m15 .right-section h1{
+    color: #444;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: inherit;
+}
+.laptop-m15 .right-section p{
+    font-size: 18px;
+    color: #3a3b3a;
+    line-height: 24px;
+}
+.dream-container{
+    background-image: url(https://i.dell.com/sites/csimages/Banner_Imagery/all/aw_dcr_campaign_fy22_homepage_mod5_07.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 80vh;
+    padding: 211px;
+    padding-left: 96px;
+}
+.dream-container .left-section h1{
+    color: rgb(250, 244, 244);
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: inherit;
+}
+.dream-container .left-section p{
+    font-size: 18px;
+    color: #f0f1f0;
+    line-height: 24px;
+}
+.dream-button{
+    color: rgb(238, 233, 233);
+    border: 3px solid rgb(231, 228, 228);
+    background: transparent;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+}
+.dream-button:hover{
+    color: #222;
+    background-color: white;
+}
+.grey-bottom{
+    margin-top: 0;
+    background-color: #222;
+    color: #fff;
+    padding-bottom: 100px;
+    font-size: 12px;
+    font-family: inherit;
+}
+.aw-icon{
+    padding: 300px;
+    padding-inline: 463px;
+
+}
+.footer-description{
+    font-size: 12px;
+    line-height: 1.6em;
+    position: relative;
+    top: -138px;
+    right: -155px;
+    letter-spacing: .04em;
+    font-weight: 200;
+    color: #cce7f3;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 12px;
+    margin-right: 232px;
+    opacity: .6;
+}
